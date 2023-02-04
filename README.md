@@ -22,4 +22,5 @@ Please raise any questions or problems in the user forum <https://discuss.phplis
 ## Version history ##
 
     version         Description
+    1.0.1+20230204  Revised dependency checks
     1.0.0+20230204  First release

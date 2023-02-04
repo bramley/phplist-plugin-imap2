@@ -47,8 +47,11 @@ class Imap2 extends phplistPlugin
      */
     public function dependencyCheck()
     {
+        global $allplugins, $plugins;
+
         return [
-            'IMAP extension must not already be loaded' => !function_exists('imap_open'),
+            'Common plugin must be enabled' => array_key_exists('CommonPlugin', $plugins),
+            'IMAP plugin must not be installed' => !array_key_exists('ImapPlugin', $allplugins),
         ];
     }
 

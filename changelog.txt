@@ -1,2 +1,5 @@
+version 1.0.1+20230204
+      Revise dependency checks
+
 version 1.0.0+20230204
       First version
