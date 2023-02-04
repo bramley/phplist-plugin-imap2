@@ -1,0 +1,16 @@
+{
+    "config": {
+        "platform-check": false,
+        "vendor-dir": "plugins/Imap2/vendor",
+        "optimize-autoloader": true
+    },
+    "require": {
+        "javanile/php-imap2": "*"
+    },
+    "extra": {
+        "1": "Common Plugin provides psr/container, do not install to avoid version problems"
+    },
+    "replace": {
+        "psr/container": "*"
+    }
+}
