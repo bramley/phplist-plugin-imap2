@@ -1064,7 +1064,7 @@ class ImapClient
 
         if (!$this->fp) {
             $this->setError(self::ERROR_BAD, sprintf("Could not connect to %s:%d: %s",
-                $host, $this->prefs['port'], $errstr ?: "Unknown reason"));
+                $host, $this->prefs['port'], $errstr ?: (($bounce_mailbox_host == 'localhost') ? "$bounce_mailbox_host must be defined as a real hostname and not just localhost, please change accordingly" : "Unknown reason")));
 
             return false;
         }
