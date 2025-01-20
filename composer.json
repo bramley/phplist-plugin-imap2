@@ -1,4 +1,5 @@
 {
+    "name": "phplist/phplist-plugin-imap",
     "config": {
         "platform-check": false,
         "vendor-dir": "plugins/Imap2/vendor",
