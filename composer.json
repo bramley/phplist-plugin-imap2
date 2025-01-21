@@ -1,4 +1,16 @@
 {
+    "name": "bramley/phplist-plugin-imap2",
+    "description": "phpList plugin emulating php imap functions",
+    "keywords": [
+      "phplist",
+      "email",
+      "newsletter",
+      "manager",
+      "permission marketing"
+    ],
+    "homepage": "https://www.phpList.org/",
+    "type": "phplist-plugin",
+    "license": "GNU Affero General Public License version 3.0 or later (AGPLv3+)",
     "config": {
         "platform-check": false,
         "vendor-dir": "plugins/Imap2/vendor",
