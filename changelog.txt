@@ -1,3 +1,7 @@
+version 1.0.2+20250122
+      Allow plugin to be a dependency of phplist. Fixes #4
+      Fix cs fixer deprecation
+
 version 1.0.1+20230204
       Revise dependency checks
 
