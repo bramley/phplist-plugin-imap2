@@ -55,6 +55,17 @@ class Imap2 extends phplistPlugin
         ];
     }
 
+    public function activate()
+    {
+        global $bounce_mailbox_port;
+
+        parent::activate();
+
+        if (isset($bounce_mailbox_port)) {
+            $bounce_mailbox_port = str_replace(['110', '995', 'pop3'], ['143', '993', 'imap'], $bounce_mailbox_port);
+        }
+    }
+
     public function adminmenu()
     {
         return [];
