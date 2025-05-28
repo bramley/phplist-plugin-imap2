@@ -22,6 +22,7 @@ Please raise any questions or problems in the user forum <https://discuss.phplis
 ## Version history ##
 
     version         Description
+    1.0.4+20250528  Provide logging of connection dialogue
     1.0.3+20250123  Convert POP3 port and service to IMAP. Fixes #2
     1.0.2+20250122  Allow plugin to be a dependency of phplist. Fixes #4
     1.0.1+20230204  Revised dependency checks

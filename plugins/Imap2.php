@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Imap2 plugin for phplist.
  *
@@ -38,6 +39,8 @@ class Imap2 extends phplistPlugin
             ? file_get_contents($f)
             : '';
         parent::__construct();
+
+        require $this->coderoot . 'imap_functions.php';
     }
 
     /**
