@@ -22,6 +22,7 @@ Please raise any questions or problems in the user forum <https://discuss.phplis
 ## Version history ##
 
     version         Description
+    1.1.1+20250707  Ensure that the plugin's version is used
     1.1.0+20250707  Update composer packages
     1.0.4+20250528  Provide logging of connection dialogue
     1.0.3+20250123  Convert POP3 port and service to IMAP. Fixes #2
