@@ -55,6 +55,7 @@ class Imap2 extends phplistPlugin
         return [
             'Common plugin must be enabled' => array_key_exists('CommonPlugin', $plugins),
             'IMAP plugin must not be installed' => !array_key_exists('ImapPlugin', $allplugins),
+            'php version 8' => version_compare(PHP_VERSION, '8') > 0,
         ];
     }
 
